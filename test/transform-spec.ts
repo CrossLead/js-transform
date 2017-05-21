@@ -16,10 +16,7 @@ const C1 = new Tyr.Collection({
     _id:  {is: 'mongoid'},
     name: {is: 'string'},
     count: {is: 'integer'},
-  },
-  indexes: [{
-    key: { name: 1 }
-  }]
+  }
 });
 
 const C2 = new Tyr.Collection({
@@ -32,10 +29,7 @@ const C2 = new Tyr.Collection({
     count: {is: 'integer'},
     nestedId: {is: 'link'},
     raw: {is: 'object'},
-  },
-  indexes: [{
-    key: { name: 1 }
-  }]
+  }
 });
 
 describe("transform", () => {
@@ -43,7 +37,7 @@ describe("transform", () => {
 
     const config = { valueConst: C1
                      , fields: [ {name: 'name', selector: 'foo'},
-                                 {name: 'count', selector: ['cnt']}
+                                 {name: 'count', selector: 'cnt'}
                                ]
                    };
     const transformer = new Transformer(config);
@@ -61,7 +55,7 @@ describe("transform", () => {
 
     const config = { valueConst: C1
                      , fields: [ {name: 'name', selector: 'foo'},
-                                 {name: 'count', selector: ['cnt']}
+                                 {name: 'count', selector: 'cnt'}
                                ]
                      , keepOrig: true
                    };
@@ -80,7 +74,7 @@ describe("transform", () => {
 
     const config = { valueConst: C1
                      , fields: [ {name: 'name', selector: 'foo', mandatory:true},
-                                 {name: 'count', selector: ['cnt']}
+                                 {name: 'count', selector: 'cnt'}
                                ]
                    };
     const transformer = new Transformer(config);
@@ -96,18 +90,19 @@ describe("transform", () => {
 
     const leaf = { valueConst: C1
                    , fields: [ {name: 'name', selector: 'foo'},
-                               {name: 'count', selector: ['cnt']}
+                               {name: 'count', selector: 'cnt'}
                              ]
                  };
     const top = { valueConst: C2
                   , fields: [ {name: 'name', selector: 'foo'},
-                              {name: 'count', selector: ['cnt']},
+                              {name: 'count', selector: 'cnt'},
                               {name: 'nested', selector: ['c1'], config: leaf}
                             ]
                 }
     const transformer = new Transformer(top);
     const data = {foo: 'asd', cnt: 2, c1: {foo: 'bar', cnt:3}};
     const out = transformer.transform(data);
+
     expect(out instanceof C2).to.be.true;
     expect(out.name).to.equal('asd');
     expect(out.count).to.equal(2);
@@ -123,7 +118,7 @@ describe("transform", () => {
                      , fields: [ {name: 'name', selector: 'foo',
                                   parser: R.toUpper}
                                  ,
-                                 {name: 'count', selector: ['cnt']}
+                                 {name: 'count', selector: 'cnt'}
                                ]
                    };
     const transformer = new Transformer(config);
@@ -138,7 +133,58 @@ describe("transform", () => {
   });
 
   it("should transform some jira data", () => {
-    var data = JSON.parse(readFileSync('data/AWIZ-1543.json').toString());
-    // console.log(data);
+    const data =
+          JSON.parse(readFileSync('test/data/AWIZ-1543.json').toString());
+    const JiraInfo = new Tyr.Collection({
+      id: 'jt1',
+      name: 'jirainfotest',
+      dbName: 'jirainfotest',
+      fields: {
+        _id: { is: 'mongoid' },
+        startDate: { is: 'string' },
+        endDate: { is: 'string' },
+        name: { is: 'string' },
+        description: { is: 'string' },
+        updateStatusType: { is: 'number' },
+        updateFrequency: { is: 'number' },
+        triangleLayerId: { is: 'link' },
+        userId: { is: 'link' },
+        groupId: { is: 'link' },
+        organizationId: { is: 'link' },
+        activeStatusType: { is: 'number' },
+        creatorId: { is: 'link' },
+        ownerId: { is: 'link' },
+        watchers: { is: 'array' },
+        assignments: {is: 'array'},
+        dependencies: {is: 'array'}
+      }
+    });
+
+    const config =
+          { valueConst: JiraInfo
+            , fields: [
+              {name: 'startDate', selector: ['fields','sprint','startDate']},
+              {name: 'endDate', selector: ['fields','sprint','endDate']},
+              {name: 'name', selector: ['fields','summary']},
+              {name: 'description', selector: ['fields','description']},
+              {name: 'updateStatusType', selector: [], mapper: () => {return 0} },
+              {name: 'updateFrequency', selector: [], mapper: () => {return 0} },
+              {name: 'triangleLayerId', selector: 'triangleLayerId'},
+              {name: 'userId', selector: 'userId'},
+              {name: 'groupId', selector: 'groupId'},
+              {name: 'organizationId', selector: 'organizationId'},
+              {name: 'activeStatusType', selector: 'activeStatusType'},
+              {name: 'creatorId', selector: 'creatorId'},
+              {name: 'ownerId', selector: 'ownerId'},
+              {name: 'watchers', selector: 'watchers'},
+              {name: 'assignments', selector: 'assignments'},
+              {name: 'dependencies', selector: 'dependencies'},
+            ]
+          };
+    const transformer = new Transformer(config);
+    const out = transformer.transform(data);
+
+    expect(out instanceof JiraInfo).to.be.true;
+
   });
 });
