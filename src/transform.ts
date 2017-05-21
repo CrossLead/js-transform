@@ -14,7 +14,8 @@ export interface FieldConfig {
   selector: string|string[];
   mandatory?: boolean;
   config?: Config;
-  parser?: (input: any) => any;
+  defValue?: any;
+  mapper?: (input: any) => any;
 }
 
 export interface Config {
@@ -55,10 +56,11 @@ export class Transformer {
       const data1 = field.config ?
             new Transformer(field.config).transform(data) :
             data;
-      const parser = field.parser ? field.parser : R.identity;
+      const data2 = field.defValue && data1 === undefined ? field.defValue : data1;
+      const mapper = field.mapper ? field.mapper : R.identity;
 
-      if ( data1 ) {
-        out[field.name] = parser(data1);
+      if ( data2 ) {
+        out[field.name] = mapper(data2);
       } else {
         if (field.mandatory) {
           throw new Error('Missing mandatory data expected at selector: \'' + field.selector + '\'');
