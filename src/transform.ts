@@ -8,6 +8,7 @@
  */
 
 import * as R from 'ramda';
+import { Left, Right, Either } from 'monads.either';
 
 export interface FieldConfig {
   name: string;
@@ -19,6 +20,7 @@ export interface FieldConfig {
 }
 
 export interface Config {
+  // This is any constructor function that can take a plain javaascript object.
   valueConst: any;
   fields: FieldConfig[];
   keepOrig?: boolean;
@@ -47,15 +49,33 @@ export class Transformer {
   /**
    * Transform the given data by applying it to the configuration
    * that is currently stored on this object.
+   * Return value is expressed via an Either:
+   * This will either be a list of errors (the Left side of the Either),
+   * or an class instance obtained by invoking the constructor given
+   * in the configuration on the computed output object.
+   * (See the monads.either package for info on how to work with Either objects)
+   *
    * This is a pure function; the input is not modified.
    */
   transform(input: any): any {
+    let errors = [];
+    const nestedTransform = (config: Config, data: any): any => {
+      if (config) {
+        const ret = new Transformer(config).transform(data);
+        if (ret.isLeft) {
+          errors.push(ret.merge());
+        } else {
+          return ret.get();
+        }
+      } else {
+        return data;
+      }
+    };
+
     const process = (out: any, arg: any) => {
       const [lens, field] = arg;
       const data = R.view(lens, input);
-      const data1 = field.config ?
-            new Transformer(field.config).transform(data) :
-            data;
+      const data1 = nestedTransform(field.config, data);
       const data2 = field.defValue && data1 === undefined ? field.defValue : data1;
       const mapper = field.mapper ? field.mapper : R.identity;
 
@@ -63,7 +83,7 @@ export class Transformer {
         out[field.name] = mapper(data2);
       } else {
         if (field.mandatory) {
-          throw new Error('Missing mandatory data expected at selector: \'' + field.selector + '\'');
+          errors.push(new Error('Missing mandatory data expected at selector \'' + field.selector + '\' for constructor \'' + this.config.valueConst + '\'' ));
         }
       }
       return out;
@@ -73,7 +93,8 @@ export class Transformer {
     if (this.config.keepOrig) {
       out.$orig = input;
     }
-    return new this.config.valueConst( out );
+
+    return errors.length ? new Left(errors) : new Right(new this.config.valueConst( out ));
   }
 }
 
