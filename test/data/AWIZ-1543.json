@@ -15,48 +15,7 @@
       "updated" : "2017-04-26T14:30:44.929-0700",
       "customfield_10006" : null,
       "timespent" : null,
-      "attachment" : [
-         {
-            "self" : "https://crosslead.atlassian.net/rest/api/2/attachment/30101",
-            "created" : "2017-04-11T07:07:02.687-0700",
-            "author" : {
-               "displayName" : "Calvin Andrews",
-               "timeZone" : "America/Los_Angeles",
-               "emailAddress" : "calvin.andrews@crosslead.com",
-               "name" : "calvin.andrews",
-               "avatarUrls" : {
-                  "48x48" : "https://avatar-cdn.atlassian.com/dc2b3895c805ab63e5b05d05c4ef344a?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10620%26noRedirect%3Dtrue",
-                  "16x16" : "https://avatar-cdn.atlassian.com/dc2b3895c805ab63e5b05d05c4ef344a?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10620%26noRedirect%3Dtrue",
-                  "32x32" : "https://avatar-cdn.atlassian.com/dc2b3895c805ab63e5b05d05c4ef344a?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10620%26noRedirect%3Dtrue",
-                  "24x24" : "https://avatar-cdn.atlassian.com/dc2b3895c805ab63e5b05d05c4ef344a?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10620%26noRedirect%3Dtrue"
-               },
-               "key" : "calvin.andrews",
-               "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=calvin.andrews",
-               "active" : true
-            },
-            "filename" : "AT Custom Fields.pdf",
-            "size" : 448213,
-            "mimeType" : "application/pdf",
-            "content" : "https://crosslead.atlassian.net/secure/attachment/30101/AT+Custom+Fields.pdf",
-            "id" : "30101"
-         }
-      ],
       "customfield_10020" : null,
-      "reporter" : {
-         "timeZone" : "America/New_York",
-         "emailAddress" : "paige.morschauser@crosslead.com",
-         "name" : "Paige.Morschauser",
-         "avatarUrls" : {
-            "24x24" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue",
-            "32x32" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue",
-            "16x16" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue",
-            "48x48" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue"
-         },
-         "key" : "paige.morschauser",
-         "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=Paige.Morschauser",
-         "active" : true,
-         "displayName" : "Paige Morschauser"
-      },
       "sprint" : {
          "id" : 39,
          "state" : "active",
@@ -86,274 +45,23 @@
       "aggregatetimeoriginalestimate" : 288000,
       "project" : {
          "self" : "https://crosslead.atlassian.net/rest/api/2/project/10018",
-         "avatarUrls" : {
-            "16x16" : "https://crosslead.atlassian.net/secure/projectavatar?size=xsmall&pid=10018&avatarId=10011",
-            "48x48" : "https://crosslead.atlassian.net/secure/projectavatar?pid=10018&avatarId=10011",
-            "24x24" : "https://crosslead.atlassian.net/secure/projectavatar?size=small&pid=10018&avatarId=10011",
-            "32x32" : "https://crosslead.atlassian.net/secure/projectavatar?size=medium&pid=10018&avatarId=10011"
-         },
          "key" : "AWIZ",
          "name" : "Alignment Wizard",
          "id" : "10018"
       },
-      "comment" : {
-         "maxResults" : 6,
-         "total" : 6,
-         "comments" : [
-            {
-               "created" : "2017-03-13T10:33:56.090-0700",
-               "self" : "https://crosslead.atlassian.net/rest/api/2/issue/31113/comment/37465",
-               "updateAuthor" : {
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "christian.yang@crosslead.com",
-                  "name" : "christian.yang",
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=christian.yang",
-                  "active" : true,
-                  "avatarUrls" : {
-                     "24x24" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue"
-                  },
-                  "key" : "christian.yang",
-                  "displayName" : "Christian Yang [Administrator]"
-               },
-               "id" : "37465",
-               "updated" : "2017-03-13T10:33:56.090-0700",
-               "body" : "Adding [~thalmrast] as tentative dev owner. Ted, would be great if you could let me know your SWAGS for both the simpler workaround (all AT components have all fields and we just hide smartly via UI) vs complex inheritance rules. Estimate Tues 3/14 standup time if possible would be ideal.",
-               "author" : {
-                  "name" : "christian.yang",
-                  "avatarUrls" : {
-                     "24x24" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue"
-                  },
-                  "key" : "christian.yang",
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=christian.yang",
-                  "active" : true,
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "christian.yang@crosslead.com",
-                  "displayName" : "Christian Yang [Administrator]"
-               }
-            },
-            {
-               "updateAuthor" : {
-                  "displayName" : "Christian Yang [Administrator]",
-                  "emailAddress" : "christian.yang@crosslead.com",
-                  "timeZone" : "America/Los_Angeles",
-                  "avatarUrls" : {
-                     "48x48" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue"
-                  },
-                  "key" : "christian.yang",
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=christian.yang",
-                  "name" : "christian.yang"
-               },
-               "self" : "https://crosslead.atlassian.net/rest/api/2/issue/31113/comment/37468",
-               "created" : "2017-03-13T10:49:04.852-0700",
-               "body" : "One further note on modeling: we currently have an {{extEntities}} collection that we might be able to expand upon (it also uses Tyranid dynamic schemas - see {{ext-entity.model.spec.js}} unit test on ln 63). Only advantage is that this model was already integrated at some point with AT for making metrics rules. If we do go a different route, we should ensure the AT can eventually make rules against the new fields (and ideally we'd migrate and rip out the old ext entity code).",
-               "updated" : "2017-03-13T10:49:04.852-0700",
-               "author" : {
-                  "displayName" : "Christian Yang [Administrator]",
-                  "emailAddress" : "christian.yang@crosslead.com",
-                  "timeZone" : "America/Los_Angeles",
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=christian.yang",
-                  "key" : "christian.yang",
-                  "avatarUrls" : {
-                     "32x32" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue"
-                  },
-                  "name" : "christian.yang"
-               },
-               "id" : "37468"
-            },
-            {
-               "updated" : "2017-03-13T11:24:33.161-0700",
-               "body" : "I believe I can get both (base plus inheritance stretch goal) done in a two-week sprint assuming I don't have a lot of other things going on in the sprint.",
-               "author" : {
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "ted.halmrast@crosslead.com",
-                  "name" : "thalmrast",
-                  "avatarUrls" : {
-                     "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue"
-                  },
-                  "key" : "thalmrast",
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-                  "active" : true,
-                  "displayName" : "Ted Halmrast"
-               },
-               "id" : "37470",
-               "updateAuthor" : {
-                  "displayName" : "Ted Halmrast",
-                  "name" : "thalmrast",
-                  "key" : "thalmrast",
-                  "avatarUrls" : {
-                     "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue"
-                  },
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "ted.halmrast@crosslead.com"
-               },
-               "self" : "https://crosslead.atlassian.net/rest/api/2/issue/31113/comment/37470",
-               "created" : "2017-03-13T11:24:33.161-0700"
-            },
-            {
-               "id" : "38620",
-               "updated" : "2017-04-03T08:08:17.032-0700",
-               "body" : "Please sync with [~Michelle.Shu] when close to implementation to see if we can migrate {{jiraIssue}} to the new format.",
-               "author" : {
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=christian.yang",
-                  "avatarUrls" : {
-                     "48x48" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue"
-                  },
-                  "key" : "christian.yang",
-                  "name" : "christian.yang",
-                  "emailAddress" : "christian.yang@crosslead.com",
-                  "timeZone" : "America/Los_Angeles",
-                  "displayName" : "Christian Yang [Administrator]"
-               },
-               "created" : "2017-04-03T08:08:17.032-0700",
-               "self" : "https://crosslead.atlassian.net/rest/api/2/issue/31113/comment/38620",
-               "updateAuthor" : {
-                  "displayName" : "Christian Yang [Administrator]",
-                  "name" : "christian.yang",
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=christian.yang",
-                  "active" : true,
-                  "avatarUrls" : {
-                     "16x16" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/e303981e2d6654d0ac5ff1f520406b68?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dchristian.yang%26avatarId%3D10400%26noRedirect%3Dtrue"
-                  },
-                  "key" : "christian.yang",
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "christian.yang@crosslead.com"
-               }
-            },
-            {
-               "id" : "39332",
-               "updated" : "2017-04-13T12:23:04.100-0700",
-               "author" : {
-                  "emailAddress" : "ted.halmrast@crosslead.com",
-                  "timeZone" : "America/Los_Angeles",
-                  "key" : "thalmrast",
-                  "avatarUrls" : {
-                     "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue"
-                  },
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-                  "name" : "thalmrast",
-                  "displayName" : "Ted Halmrast"
-               },
-               "body" : "2017.4.13 update:  This is on track for completion in this sprint.",
-               "created" : "2017-04-13T12:23:04.100-0700",
-               "self" : "https://crosslead.atlassian.net/rest/api/2/issue/31113/comment/39332",
-               "updateAuthor" : {
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-                  "avatarUrls" : {
-                     "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue"
-                  },
-                  "key" : "thalmrast",
-                  "name" : "thalmrast",
-                  "emailAddress" : "ted.halmrast@crosslead.com",
-                  "timeZone" : "America/Los_Angeles",
-                  "displayName" : "Ted Halmrast"
-               }
-            },
-            {
-               "updateAuthor" : {
-                  "displayName" : "Ted Halmrast",
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "ted.halmrast@crosslead.com",
-                  "name" : "thalmrast",
-                  "active" : true,
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-                  "avatarUrls" : {
-                     "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
-                     "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
-                  },
-                  "key" : "thalmrast"
-               },
-               "self" : "https://crosslead.atlassian.net/rest/api/2/issue/31113/comment/39432",
-               "created" : "2017-04-20T11:45:48.508-0700",
-               "updated" : "2017-04-20T11:45:48.508-0700",
-               "body" : "2017.4.20 update:  This is on track to be completed in current sprint.",
-               "author" : {
-                  "name" : "thalmrast",
-                  "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-                  "active" : true,
-                  "key" : "thalmrast",
-                  "avatarUrls" : {
-                     "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-                     "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue",
-                     "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
-                     "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue"
-                  },
-                  "timeZone" : "America/Los_Angeles",
-                  "emailAddress" : "ted.halmrast@crosslead.com",
-                  "displayName" : "Ted Halmrast"
-               },
-               "id" : "39432"
-            }
-         ],
-         "startAt" : 0
-      },
       "customfield_10200" : null,
       "customfield_10003" : null,
-      "description" : "This is a requirement from Third Point. Christian gathered details on this while he was at Third Point during the week of 3.6. \r\n\r\n\r\nIssue: they have a lot of custom fields in Tamale\r\n* We do need some notion of custom fields on a component \r\n* Creating a UI to add custom fields is higher priority than the Profile custom fields ask \r\n* One challenge: certain custom fields would only show for certain teams/layers\r\n** Maybe what we do is enable all of the custom fields for the org but we don't show them on the component unless they have them. All of the fields are technically present on all of the components but we do some UX around hiding them \r\n** Alternatively, devise a multiple inheritance mechanism to define fields that should propagate down AT layers and team hierarchies. *Need SWAG for additional design and dev time for multiple inheritance*\r\n* Need Admin UI and need rules on how they should display \r\n** *Need SWAG on additional time for complicated inheritance rules*\r\n \r\n \r\nBackground on overall solution and API approach: AT Components/Activity Logs (let THird Point shove anything they want into an AT component or activity log entry)\r\n* Already aggregates and maps most of Third Points data sources (including Tamale) into their own SQL server database -> Do \r\n* Can piggyback and push/pull to/from our API\r\n** Tamale objects:\r\n*** Entities (with types)\r\n*** Entries (with types)\r\n** Custom properties per entry type\r\n** Need custom fields by entity and type\r\n* Would rather create via UI\r\n* Broader vision: different fields by CLP team and layer\r\n** CY: Maybe can keep configured at org level but make UX to keep things clean:\r\n*** View only shows populated fields\r\n*** Edit shows populated fields, \"More\" button to show all\r\n* Tamale ID is a field they would use in mappings\r\n* Provide endpoints for adjusting properties and workflow states for our main entities:\r\n** AT components (triangleLayerItems) -> ability to archive\r\n** Activity log entries\r\n** Metrics\r\n\r\n\r\n\r\n\r\n",
+      "description" : "This is a requirement",
       "aggregatetimespent" : null,
       "customfield_10100" : null,
       "summary" : "Custom AT Fields ",
       "timeoriginalestimate" : 288000,
       "customfield_10021" : null,
-      "assignee" : {
-         "active" : true,
-         "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=thalmrast",
-         "avatarUrls" : {
-            "24x24" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
-            "32x32" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue",
-            "16x16" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
-            "48x48" : "https://avatar-cdn.atlassian.com/f16f89e538bf7907f9b773ddaf70b163?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Ff16f89e538bf7907f9b773ddaf70b163%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue"
-         },
-         "key" : "thalmrast",
-         "name" : "thalmrast",
-         "emailAddress" : "ted.halmrast@crosslead.com",
-         "timeZone" : "America/Los_Angeles",
-         "displayName" : "Ted Halmrast"
-      },
       "customfield_10014" : null,
       "aggregatetimeestimate" : 288000,
       "workratio" : 0,
       "customfield_10000" : "2017-03-13T10:33:56.090-0700",
       "customfield_10015" : null,
-      "customfield_10400" : "Description (1-3 sentences)\r\n\r\nGoals:\r\n•\tUI to create org- or team-wide fields in Admin \r\n•\tUI to add custom fields to components within the AT\r\n \r\n \r\nNeed to be able to:\r\n1.\tField creation: \r\na.\tPick field type\r\nb.\tName the field\r\nc.\tInput field options (if applicable)\r\n2.\tField configuration: \r\na.\tTeam (all teams)\r\nb.\tLayer (all layers) \r\n \r\nWhen you create at the team level, you can only share it with that team and child teams\r\nWhen you create at the team level, it populates the org master list of all fields but doesn't get shared with all teams\r\nWithin org master list of all fields, user can edit which teams/layers field will appear on.\r\nIf you delete a field at the team level, it deletes for that team and child teams, not for all teams\r\nWithin Team Admin, AT icon now takes user to modal as opposed to team triangle\r\n\r\n\r\n\r\nEnd goal – what does success look like? (1-3 sentences)\r\n\r\nLink to wireframes/mockups/design\r\n\r\nEdge cases (think of at least 1 or two edge cases for each scenario and how to address them)\r\nTeam is moved under a new parent with different custom fields. Team keeps custom fields it had before move.\r\n\r\nList of Components:\r\n* Component #1:\r\n** Description of functionality \r\n** Use case(s)\r\n\r\nPermissions needed (Y/N)? If Yes, then please describe\r\nThis is restricted to team owners or org admins\r\n\r\nFeature affects paid plans (Y/N)? If Yes, then please describe - N\r\n\r\nFinal checklist: Have you thought through implications of the following areas for your feature?\r\n* Security\r\n* World-readiness\r\n* Performance\r\n* Mobile\r\n* Accessibility\r\n* User education\r\n\r\nOther affected modules (for each affected module, please write a sentence or two describing the effects)\r\n* Alignment Triangle\r\n* Adapters\r\n* Diagnostics\r\n* ITM\r\n* Network Map\r\n* Platform-wide\r\n* Profile",
       "components" : [],
       "customfield_10011" : "ghx-label-6",
       "customfield_10005" : null,
@@ -361,21 +69,6 @@
          "percent" : 0,
          "total" : 288000,
          "progress" : 0
-      },
-      "creator" : {
-         "emailAddress" : "paige.morschauser@crosslead.com",
-         "timeZone" : "America/New_York",
-         "avatarUrls" : {
-            "48x48" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=48&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3FownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue",
-            "16x16" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=16&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26ownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue",
-            "32x32" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=32&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26ownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue",
-            "24x24" : "https://avatar-cdn.atlassian.com/7dd83eeb357f461ea26122482f868b03?s=24&d=https%3A%2F%2Fcrosslead.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26ownerId%3Dpaige.morschauser%26avatarId%3D10500%26noRedirect%3Dtrue"
-         },
-         "key" : "paige.morschauser",
-         "active" : true,
-         "self" : "https://crosslead.atlassian.net/rest/api/2/user?username=Paige.Morschauser",
-         "name" : "Paige.Morschauser",
-         "displayName" : "Paige Morschauser"
       },
       "customfield_10019" : null,
       "customfield_10016" : null,
@@ -399,9 +92,6 @@
          },
          "id" : "5"
       },
-      "customfield_10007" : [
-         "com.atlassian.greenhopper.service.sprint.Sprint@15a12b7[id=39,rapidViewId=13,state=ACTIVE,name=prod/20170424,goal=,startDate=2017-04-10T09:46:54.050-07:00,endDate=2017-04-23T09:46:00.000-07:00,completeDate=<null>,sequence=39]"
-      ],
       "customfield_10901" : {
          "id" : "10203",
          "value" : "Yes",
@@ -637,8 +327,6 @@
             "archived" : false
          }
       ],
-      "customfield_10009" : "Custom AT Fields ",
-      "customfield_10700" : "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=2}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":2,\"lastUpdated\":\"2017-05-08T16:09:13.000-0700\",\"stateCount\":2,\"state\":\"MERGED\",\"open\":false},\"byInstanceType\":{\"github\":{\"count\":2,\"name\":\"GitHub\"}}}}},\"isStale\":false}}",
       "priority" : {
          "id" : "3",
          "name" : "Medium",
@@ -646,7 +334,7 @@
          "self" : "https://crosslead.atlassian.net/rest/api/2/priority/3"
       },
       "labels" : [
-         "third-point"
+         "some-label"
       ],
       "customfield_10022" : null,
       "customfield_10004" : null,
